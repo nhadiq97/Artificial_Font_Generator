@@ -7,7 +7,7 @@ import os
 
 
 letters = open("Letters/mal_letters").read().split('\n')
-fonts = glob("Mal_Fonts/*.ttf")
+fonts = glob("Fonts/ml/*.ttf")
 out_path = 'Output/ml/'
 size = 75*75
 

@@ -18,10 +18,10 @@ def generateLetterBitmap(font_path,character,size=32*32):
 	return img
 
 
-font_path = 'Mal_Fonts/Manjari-Bold.ttf'
-character = 'അ'
-size = 100*100
-img = generateLetterBitmap(font_path,character,size)
-
-cv2.imwrite('out.jpg',img)
+# # Test
+# font_path = 'Fonts/ml/JACOB.TTF'
+# character = 'അ'
+# size = 100*100
+# img = generateLetterBitmap(font_path,character,size)
+# cv2.imwrite('out.jpg',img)
 
